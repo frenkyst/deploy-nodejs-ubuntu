@@ -2,7 +2,7 @@
 
 ### Node.js
 
-NodeJs adalah runtime untuk lingkungan JavaScript di luar peramban web yang dibangun di atas mesin JavaScript V8.
+__NodeJs__ adalah runtime untuk lingkungan JavaScript di luar peramban web yang dibangun di atas mesin JavaScript V8.
 
 1. Pertama-tama kita harus meng-install terlebih engine-nya dahulu. Untuk instalasi kalian bisa menggunakan beberapa perintah dibawah ini.
 
@@ -10,9 +10,9 @@ NodeJs adalah runtime untuk lingkungan JavaScript di luar peramban web yang diba
 
 ![image](https://user-images.githubusercontent.com/40049149/186486060-c664f708-098f-4c7f-838c-0bf90e8aa789.png)
 
-   keterangan : disini kita menggunakan nvm
+   keterangan : disini kita menggunakan __nvm__
 
-nvm merupakan singkatan dari Node Version Manager. nvm adalah sebuah program yang akan membantu kita untuk menggunakan lebih dari satu versi Nodejs di dalam satu komputer.
+__nvm__ merupakan singkatan dari __Node Version Manager__. __nvm__ adalah sebuah program yang akan membantu kita untuk menggunakan lebih dari satu versi Nodejs di dalam satu komputer.
 
         exec bash
 keterangan : Jika nvm belum terdeteksi gunakan perintah di atas ini
@@ -21,7 +21,7 @@ keterangan : Jika nvm belum terdeteksi gunakan perintah di atas ini
 
 ![image](https://user-images.githubusercontent.com/40049149/186486963-e6fef845-4d27-4c93-a81d-c17aa3d4d0d7.png)
 
-keterangan : perintah di atas berguna untuk menginstall node.js dengan versi 16. Jika kalian ingin menggunakan node.js denganversion 14, maka Jalankan perintah nvm install 14.
+keterangan : perintah di atas berguna untuk menginstall __node.js__ dengan __versi 16__. Jika kalian ingin menggunakan __node.js__ dengan __version 14__, maka Jalankan perintah __nvm install 14__.
 
         nvm use 16
 
@@ -29,14 +29,14 @@ keterangan : perintah di atas berguna untuk menginstall node.js dengan versi 16.
 
 keterangan : Untuk menggunakan node.js dengan versi 16
 
-Jika tahapan di atas sudah kalian lakukan, maka kalian sudah berhasil untuk melakukan instalasi node.js. Untuk melakukan pengecekan kalian bisa menggunakan perintah di bawah ini.
+Jika tahapan di atas sudah kalian lakukan, maka kalian sudah berhasil untuk melakukan instalasi __node.js__. Untuk melakukan pengecekan kalian bisa menggunakan perintah di bawah ini.
 
         node -v
         npm -v
 
 ![image](https://user-images.githubusercontent.com/40049149/186488155-eac87e01-31b4-4207-88a2-312fdc9eaa0a.png)
 
-2. Selanjutnya kita akan menjalankan perintah npm init gunanya untuk mengisiasi project, Hasil dari kalian menjalankan perintah akan membuat file baru dengan nama package.json, package.json ini berisikan isi informasi dari aplikasi yang akan kalian buat.
+2. Selanjutnya kita akan menjalankan perintah npm init gunanya untuk mengisiasi project, Hasil dari kalian menjalankan perintah akan membuat file baru dengan nama __package.json__, __package.json__ ini berisikan isi informasi dari aplikasi yang akan kalian buat.
 
         npm init -y
 
@@ -77,7 +77,7 @@ Jika tahapan di atas sudah kalian lakukan, maka kalian sudah berhasil untuk mela
 ![image](https://user-images.githubusercontent.com/40049149/186490392-47f35da2-76bb-4e09-95b6-bd134116f26b.png)
 
 
-   Keterangan : untuk keluar bisa menggunakan CTRL + X
+   Keterangan : untuk keluar bisa menggunakan CTRL + C
 
 Sekarang coba akses web browser kalian setelah itu kalian coba akses dengan localhost:3000 atau dengan ip server:3000
 
